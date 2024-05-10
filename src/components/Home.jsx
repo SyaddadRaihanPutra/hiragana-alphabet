@@ -1,4 +1,6 @@
 import React from 'react'
+import Checked from '../../public/img/check.svg'
+import Learn from '../../public/img/learning.svg'
 
 export default function Home() {
   return (
@@ -16,37 +18,37 @@ export default function Home() {
           <ul className="trending__list flex-between">
             <li>
               <div className="trending__icon flex-center">
-                <img src="../../src/assets/img/check.svg" alt="check" />
+                <img src={Checked} alt="check" />
               </div>
               <p>あ (A)</p>
             </li>
             <li>
               <div className="trending__icon flex-center">
-                <img src="../../src/assets/img/check.svg" alt="check" />
+                <img src={Checked} alt="check" />
               </div>
               <p>い (I)</p>
             </li>
             <li>
               <div className="trending__icon flex-center">
-                <img src="../../src/assets/img/check.svg" alt="check" />
+                <img src={Checked} alt="check" />
               </div>
               <p>う (U)</p>
             </li>
             <li>
               <div className="trending__icon flex-center">
-                <img src="../../src/assets/img/check.svg" alt="check" />
+                <img src={Checked} alt="check" />
               </div>
               <p>え (E)</p>
             </li>
             <li>
               <div className="trending__icon flex-center">
-                <img src="../../src/assets/img/check.svg" alt="check" />
+                <img src={Checked} alt="check" />
               </div>
               <p>お (O)</p>
             </li>
             <li>
               <div className="trending__icon flex-center">
-                <img src="../../src/assets/img/check.svg" alt="check" />
+                <img src={Checked} alt="check" />
               </div>
               <p>か (KA)</p>
             </li>
@@ -54,7 +56,7 @@ export default function Home() {
         </div>
   
         <div className="trending__image flex-center">
-          <img src="../../src/assets/img/learning.svg" alt="sushi-5" data-aos="fade-left" />
+          <img src={Learn} alt="learn" />
         </div>
       </section>
     </section>

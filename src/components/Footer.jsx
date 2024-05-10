@@ -1,4 +1,5 @@
 import React from "react";
+import Instagram from "../../public/img/instagram.svg";
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
         <ul className="footer__social">
           <li className="flex-center">
             <a href="https://instagram.com/syaddadrhnp_" target="_blank" rel="noreferrer">
-              <img src="../../src/assets/img/instagram.svg" alt="instagram" />
+              <img src={Instagram} alt="instagram" />
             </a>
           </li>
         </ul>
